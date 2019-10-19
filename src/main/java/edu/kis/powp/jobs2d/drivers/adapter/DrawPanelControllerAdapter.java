@@ -13,11 +13,12 @@ import javax.swing.*;
  */
 
 public class DrawPanelControllerAdapter extends DrawPanelController implements Job2dDriver {
+//public class DrawPanelControllerAdapter implements Job2dDriver {
 	private int startX = 0, startY = 0;
 
-	public DrawPanelControllerAdapter(JPanel jPanel) {
+	public DrawPanelControllerAdapter() {
 		super();
-		initialize(jPanel);
+//		initialize(jPanel);
 	}
 
 	@Override
@@ -39,6 +40,6 @@ public class DrawPanelControllerAdapter extends DrawPanelController implements J
 
 	@Override
 	public String toString() {
-		return "@Q!$!@$!#@$(*#@&Q(%^*#@";
+		return "DrawPanelControllerAdapter";
 	}
 }
