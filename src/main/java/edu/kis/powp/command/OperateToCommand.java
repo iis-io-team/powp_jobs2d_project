@@ -8,9 +8,10 @@ public class OperateToCommand implements DriverCommand {
     private int y;
     Job2dDriver job2dDriver;
 
-    public OperateToCommand(int x, int y) {
+    public OperateToCommand(int x, int y, Job2dDriver job2dDriver) {
         this.x = x;
         this.y = y;
+        this.job2dDriver = job2dDriver;
     }
 
     @Override
